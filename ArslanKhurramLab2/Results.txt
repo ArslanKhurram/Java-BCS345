@@ -1,0 +1,4 @@
+Sum: 155119.733
+Count: 2003
+Mean: 77.444
+Standard Deviation: 10.169

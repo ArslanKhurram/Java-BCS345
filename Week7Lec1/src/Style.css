@@ -1,0 +1,6 @@
+#submit-btnID{
+    -fx-font-size: 12;
+    -fx-text-fill: rgb(200,0,100);
+    -fx-font-weight: bold;
+    -fx-background-color:Skyblue;
+}
