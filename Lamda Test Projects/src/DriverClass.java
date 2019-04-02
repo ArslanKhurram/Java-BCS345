@@ -1,6 +1,4 @@
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -12,12 +10,7 @@ public class DriverClass extends Application {
     public void start(Stage primaryStage) {
         Button btn = new Button("Click Me");
 
-        btn.setOnAction(new EventHandler<ActionEvent>() { //anonymous class so we can update text on button
-            @Override
-            public void handle(ActionEvent event) {
-                btn.setText("Click me" + count++);
-            }
-        });
+        btn.setOnAction(event -> {btn.setText("Click Me" + count++);}); //using lambda
 
 
         Group g=new Group(btn);
